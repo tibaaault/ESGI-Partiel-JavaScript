@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Formation Symfony | NextLearn</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <header>
+            NextLearn
+            <h1>Formation Symfony</h1>
+        </header>
+
+        <main>
+            <section id="information">
+                <div>
+                    <i class="fa-solid fa-signal"></i>
+                    <span>Débutant</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <span id="article-count"></span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-hourglass"></i>
+                    <span id="timer"></span>
+                </div>
+            </section>
+
+            <section id="video">
+                <video src="video/symfony-intro.mp4"></video>
+                <div class="video-overlay">
+                    <button id="video-play">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="video-reset">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </button>
+                    <progress max="100" value="20" id="video-progress"></progress>
+                    <button id="video-fullscreen">
+                        <i class="fa-solid fa-expand"></i>
+                    </button>
+                </div>
+            </section>
+
+            <section id="content">
+                <article class="expanded">
+                    <h2>Présentation du framework</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi explicabo molestiae perferendis similique? Aperiam autem excepturi natus quasi. Atque facilis ipsa laboriosam nobis quam unde, voluptas voluptatibus. Deserunt, nam.<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam architecto aspernatur, atque blanditiis commodi doloremque ea hic id in molestiae natus nihil, placeat praesentium quia quidem quo repudiandae, tempore!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum magni modi odio quas quasi. Ad aliquam aliquid, at cum, deleniti dolores doloribus eius excepturi explicabo illum, magnam possimus sequi suscipit!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis ipsa iure maiores nesciunt? Consequatur cum dicta eius et exercitationem, nemo neque omnis placeat reiciendis saepe sit soluta sunt, ut?
+                    </p>
+                </article>
+
+                <article>
+                    <h2>Installation d'un projet</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi explicabo molestiae perferendis similique? Aperiam autem excepturi natus quasi. Atque facilis ipsa laboriosam nobis quam unde, voluptas voluptatibus. Deserunt, nam.<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam architecto aspernatur, atque blanditiis commodi doloremque ea hic id in molestiae natus nihil, placeat praesentium quia quidem quo repudiandae, tempore!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum magni modi odio quas quasi. Ad aliquam aliquid, at cum, deleniti dolores doloribus eius excepturi explicabo illum, magnam possimus sequi suscipit!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis ipsa iure maiores nesciunt? Consequatur cum dicta eius et exercitationem, nemo neque omnis placeat reiciendis saepe sit soluta sunt, ut?
+                    </p>
+                </article>
+
+                <article>
+                    <h2>Votre première page</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi explicabo molestiae perferendis similique? Aperiam autem excepturi natus quasi. Atque facilis ipsa laboriosam nobis quam unde, voluptas voluptatibus. Deserunt, nam.<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam architecto aspernatur, atque blanditiis commodi doloremque ea hic id in molestiae natus nihil, placeat praesentium quia quidem quo repudiandae, tempore!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum magni modi odio quas quasi. Ad aliquam aliquid, at cum, deleniti dolores doloribus eius excepturi explicabo illum, magnam possimus sequi suscipit!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis ipsa iure maiores nesciunt? Consequatur cum dicta eius et exercitationem, nemo neque omnis placeat reiciendis saepe sit soluta sunt, ut?
+                    </p>
+                </article>
+
+                <article>
+                    <h2>Découverte de Twig</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi explicabo molestiae perferendis similique? Aperiam autem excepturi natus quasi. Atque facilis ipsa laboriosam nobis quam unde, voluptas voluptatibus. Deserunt, nam.<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam architecto aspernatur, atque blanditiis commodi doloremque ea hic id in molestiae natus nihil, placeat praesentium quia quidem quo repudiandae, tempore!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum magni modi odio quas quasi. Ad aliquam aliquid, at cum, deleniti dolores doloribus eius excepturi explicabo illum, magnam possimus sequi suscipit!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis ipsa iure maiores nesciunt? Consequatur cum dicta eius et exercitationem, nemo neque omnis placeat reiciendis saepe sit soluta sunt, ut?
+                    </p>
+                </article>
+
+                <article>
+                    <h2>Gérez vos assets</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi explicabo molestiae perferendis similique? Aperiam autem excepturi natus quasi. Atque facilis ipsa laboriosam nobis quam unde, voluptas voluptatibus. Deserunt, nam.<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam architecto aspernatur, atque blanditiis commodi doloremque ea hic id in molestiae natus nihil, placeat praesentium quia quidem quo repudiandae, tempore!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum magni modi odio quas quasi. Ad aliquam aliquid, at cum, deleniti dolores doloribus eius excepturi explicabo illum, magnam possimus sequi suscipit!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis ipsa iure maiores nesciunt? Consequatur cum dicta eius et exercitationem, nemo neque omnis placeat reiciendis saepe sit soluta sunt, ut?
+                    </p>
+                </article>
+
+                <article>
+                    <h2>Ajouter des données avec l'ORM</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi explicabo molestiae perferendis similique? Aperiam autem excepturi natus quasi. Atque facilis ipsa laboriosam nobis quam unde, voluptas voluptatibus. Deserunt, nam.<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam architecto aspernatur, atque blanditiis commodi doloremque ea hic id in molestiae natus nihil, placeat praesentium quia quidem quo repudiandae, tempore!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum magni modi odio quas quasi. Ad aliquam aliquid, at cum, deleniti dolores doloribus eius excepturi explicabo illum, magnam possimus sequi suscipit!<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis ipsa iure maiores nesciunt? Consequatur cum dicta eius et exercitationem, nemo neque omnis placeat reiciendis saepe sit soluta sunt, ut?
+                    </p>
+                </article>
+            </section>
+        </main>
+        <script src="js/app.js"></script>
+    </body>
+</html>
